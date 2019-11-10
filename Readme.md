@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Алексей Пермяков](https://up.htmlacademy.ru/adaptive/18/user/1010651).
-* Наставник: `Неизвестно`.
+* Наставник: `Ирина Малиновская`.
 
 ---
 
