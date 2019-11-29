@@ -32,14 +32,14 @@
       </div>
     </header>
     <main class="page-main-photo">
-      <div class="page-main-photo-wrapper">
-        <h1 class="visually-hidden">PINK - Делитесь своими фотографиями!</h1>
-        <section class="page-intro page-intro--photo">
-          <div class="page-intro-wrapper">
-            <h2 class="page-intro__slogan">Фотографии пользователей</h2>
-          </div>
-        </section>
-        <section class="photos">
+      <h1 class="visually-hidden">PINK - Делитесь своими фотографиями!</h1>
+      <section class="page-intro page-intro--photo">
+        <div class="container">
+          <h2 class="page-intro__slogan">Фотографии пользователей</h2>
+        </div>
+      </section>
+      <section class="photos">
+        <div class="container">
           <div class="photos-intro">
             <h2 class="photos-intro__text">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</h2>
           </div>
@@ -118,18 +118,20 @@
           <div class="photos-intro">
             <p class="photos-intro__text">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</p>
           </div>
-        </section>
-        <form class="photo-editor" action="https://echo.htmlacademy.ru" method="post">
+        </div>
+      </section>
+      <form class="photo-editor" action="https://echo.htmlacademy.ru" method="post">
+        <div class="container">
           <img class="photo-editor__current-image" src="https://via.placeholder.com/280x374" width="280" height="374" alt="Фото для поста">
           <ul class="filter-block">
             <li class="filter-block__element">
-              <img class="filter-block__image filter-block__image--filter-1" src="https://via.placeholder.com/44x44" width="44" height="44" alt="Иконка изменения размера">
+              <img class="filter-block__image filter-block__image--active" src="https://via.placeholder.com/44x44" width="44" height="44" alt="Иконка изменения размера">
             </li>
             <li class="filter-block__element">
-              <img class="filter-block__image filter-block__image--filter-2" src="https://via.placeholder.com/48x43" width="48" height="43" alt="Иконка настройки цвета">
+              <img class="filter-block__image" src="https://via.placeholder.com/48x43" width="48" height="43" alt="Иконка настройки цвета">
             </li>
             <li class="filter-block__element">
-              <img class="filter-block__image filter-block__image--filter-3" src="https://via.placeholder.com/32x32" width="32" height="32" alt="Иконка настройки контраста">
+              <img class="filter-block__image" src="https://via.placeholder.com/32x32" width="32" height="32" alt="Иконка настройки контраста">
             </li>
           </ul>
           <div class="range-control">
@@ -140,11 +142,11 @@
             <button class="button-block__item button-block__item--post" type="submit">Запостить</button>
             <button class="button-block__item button-block__item--cancel" type="reset">Отмена</button>
           </div>
-        </form>
-      </div>
+        </div>
+      </form>
     </main>
     <footer class="page-footer">
-      <div class="page-footer-wrapper">
+      <div class="container">
         <img class="page-footer__logo" src="https://via.placeholder.com/147x40" width="147" height="40" alt="Логотип футера">
         <ul class="footer-socials-block">
           <li class="footer-social-block__item social-button">
